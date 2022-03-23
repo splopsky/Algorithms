@@ -7,4 +7,6 @@ It includes:
 - BaekJoon
 - etc.
 
+Also, mainly using C++ and Python.
+
 ✍️
