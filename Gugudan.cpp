@@ -12,4 +12,6 @@ int main() {
     cout << a << " * " << i << " = " << a * i << endl;
   }
   
+  return 0;
+  
 }
