@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+
+  int num1, num2, num3;
+  int nums[10] = {};
+  int Num;
+
+  cin >> num1 >> num2 >> num3;
+
+  Num = num1 * num2 * num3;
+
+  string s = to_string(Num);
+
+  for (char ch : s){
+    // 0 in ASCII is 48. Each char will be recognized as     
+    // a ASCII num. Each num will be stored in its       
+    // corresponding index.
+    nums[ch - 48]++;
+  }
+  
+  for (int result : nums){
+    cout << result << "\n";
+  }
+
+  return 0;
+  
+}
