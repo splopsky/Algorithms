@@ -1,4 +1,4 @@
-# Algoritms
+# Algorithms
 
 This repository will be filled with my algorithm studying exercises.
 
